@@ -1,0 +1,72 @@
+.SideBarContainer {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px 20px 30px 60px;
+  border-right: 1.5px solid #f0f0f0;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 150px;
+  font-size: 10px;
+  color: #9c9c9c;
+  text-decoration: none;
+  opacity: 40;
+  letter-spacing: -3%;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+.siteNav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 28px;
+}
+
+.siteNavLinks {
+  padding: 14px 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: #9c9c9c;
+  font-weight: 500;
+  text-decoration: none;
+}
+.active {
+  background-color: #ecefff;
+  color: #061db2;
+}
+
+.siteNavLinks__menu {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.siteNavLinks__menuItems {
+  display: flex;
+  gap: 14px;
+  padding: 9px 20px;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.menuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media screen and (max-width: 900px) {
+  .SideBarContainer{
+    padding: 20px;
+  }
+  
+}

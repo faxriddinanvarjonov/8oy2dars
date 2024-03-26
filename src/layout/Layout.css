@@ -1,0 +1,8 @@
+.LayoutSection {
+  display: flex;
+  height: 100vh;
+}
+
+.contentWrapper {
+  width: 100%;
+}
