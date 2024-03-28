@@ -7,17 +7,20 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .headerInfo {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
+
 .header__h3 {
   color: #252525;
   letter-spacing: -2.5%;
   font-weight: 600;
   font-size: 20px;
 }
+
 .header__parahraph {
   color: #4b4b4b;
   font-weight: 300;
